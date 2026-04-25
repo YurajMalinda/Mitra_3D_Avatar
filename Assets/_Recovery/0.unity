@@ -302,7 +302,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4552844616983156804, guid: 3f483b28384546aef991475009618145, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.3420201
+      value: -0.32556805
       objectReference: {fileID: 0}
     - target: {fileID: 4552844616983156804, guid: 3f483b28384546aef991475009618145, type: 3}
       propertyPath: m_LocalRotation.x
@@ -310,7 +310,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4552844616983156804, guid: 3f483b28384546aef991475009618145, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9396927
+      value: 0.9455186
       objectReference: {fileID: 0}
     - target: {fileID: 4552844616983156804, guid: 3f483b28384546aef991475009618145, type: 3}
       propertyPath: m_LocalRotation.z
@@ -322,7 +322,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4552844616983156804, guid: 3f483b28384546aef991475009618145, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 220
+      value: 218
       objectReference: {fileID: 0}
     - target: {fileID: 4552844616983156804, guid: 3f483b28384546aef991475009618145, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -332,6 +332,14 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: c60bfd226bfa6b2d89331e67d9175521, type: 2}
+    - target: {fileID: 7770504055025767297, guid: 3f483b28384546aef991475009618145, type: 3}
+      propertyPath: m_AnimatePhysics
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7770504055025767297, guid: 3f483b28384546aef991475009618145, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8420529746153426328, guid: 3f483b28384546aef991475009618145, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -462,13 +470,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.38268343, z: 0, w: 0.92387956}
+  m_LocalRotation: {x: 0.008062287, y: 0.38266882, z: -0.0033395085, w: 0.92384434}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
+  m_LocalEulerAnglesHint: {x: 1, y: 45, z: 0}
 --- !u!137 &1459026685 stripped
 SkinnedMeshRenderer:
   m_CorrespondingSourceObject: {fileID: 4293379555245229721, guid: 3f483b28384546aef991475009618145, type: 3}
