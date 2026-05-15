@@ -1,5 +1,6 @@
 ﻿<Solution>
   <Project Path="UniGLTF.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
   <Project Path="UniGLTF.Editor.csproj" />
   <Project Path="UniVRM.Editor.csproj" />
   <Project Path="VRM.Tests.csproj" />

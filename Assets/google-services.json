@@ -1,0 +1,28 @@
+{
+  "project_info": {
+    "project_number": "375051843104",
+    "project_id": "mitraapp-90036",
+    "storage_bucket": "mitraapp-90036.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375051843104:web:ce2f84bdbcc24c16a82e45",
+        "android_client_info": {
+          "package_name": "com.unity3d.player"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzkYH4iyL-r4JLHUNHsLTE5goJv79lo00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
