@@ -73,8 +73,6 @@ public class MITRASessionManager : MonoBehaviour
 
         while (enabled)
         {
-            yield return new WaitForSeconds(2f);
-
             string polledStatus = null;
             yield return StartCoroutine(firebaseClient.GetSessionStatus(s => polledStatus = s));
 
@@ -83,6 +81,8 @@ public class MITRASessionManager : MonoBehaviour
                 Debug.Log($"MITRA: [Poll] status = '{polledStatus}'");
                 HandleStatusChange(polledStatus);
             }
+
+            yield return new WaitForSeconds(2f);
         }
     }
 
